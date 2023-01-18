@@ -1,0 +1,43 @@
+/* * {
+    border: 1px solid red;
+} */
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-family: sans-serif;
+}
+
+/* Header */
+
+.header {
+    background-color: #004382;
+}
+
+.header ul {
+    display: flex;
+    padding: 0.5rem 1rem;
+    margin: 0;
+    list-style-type: none;
+    justify-content: space-between;
+    color: #F7BAB1;
+}
+
+/* Title Section */
+
+.title-section {
+    margin: 0;
+    text-align: center;
+    background-color: #2B9AD4;
+}
+
+.title-section h1 {
+    color: #004382;
+}
+
+/* Information Section */
+
+.information ul {
+    list-style-type: none;
+}
