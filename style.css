@@ -6,7 +6,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    font-family: sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(32, 137, 29);
 }
 
 /* Header */
@@ -15,25 +16,41 @@ body {
     background-color: #004382;
 }
 
+.header a {
+    text-decoration: none;
+    color: #F7BAB1;
+}
+
 .header ul {
     display: flex;
     padding: 0.5rem 1rem;
     margin: 0;
     list-style-type: none;
     justify-content: space-between;
-    color: #F7BAB1;
 }
 
 /* Title Section */
 
 .title-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url('images/gorilla.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     margin: 0;
     text-align: center;
-    background-color: #2B9AD4;
+    min-height: 35rem;
 }
 
 .title-section h1 {
     color: #004382;
+    font-size: 3rem;
+}
+
+.title-section p {
+    color: #F7BAB1;
 }
 
 /* Information Section */
