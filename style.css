@@ -12,7 +12,6 @@ ul {
 body {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: black;
     background-image: url('images/gorilla.jpg');
@@ -87,6 +86,9 @@ body {
 
 /* Footer Section */
 
-.footer ul {
-    
+.footer {
+    display: block;
+    background-color: #004382;
+    text-align: center;
+    color: #F7BAB1;
 }
