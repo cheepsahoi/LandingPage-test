@@ -80,6 +80,12 @@ body {
 
 /* Information Section */
 
+.information {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
 .information ul {
     list-style-type: none;
 }
