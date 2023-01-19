@@ -18,6 +18,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    min-width: 300px;
 }
 
 /* Header */
@@ -25,6 +26,8 @@ body {
 .header {
     display: block;
     background-color: #004382;
+    border-radius: 10px;
+    height: 2.5rem;
 }
 
 .header a {
@@ -84,15 +87,42 @@ body {
     display: flex;
     flex-flow: column wrap;
     align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.information li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .information ul {
+    padding: 0;
+    margin: 2rem;
+    gap: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 400px;
+    justify-content: center;
     list-style-type: none;
+}
+
+.information img {
+    height: 10rem;
+}
+
+.information p {
+    text-align: center;
+    color: white;
+    width: 12rem;
 }
 
 /* Footer Section */
 
 .footer {
+    justify-self: flex-end;
     display: block;
     background-color: #004382;
     text-align: center;
