@@ -7,7 +7,11 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: rgb(32, 137, 29);
+    background-color: black;
+    background-image: url('images/gorilla.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* Header */
@@ -21,6 +25,8 @@ body {
     color: #F7BAB1;
 }
 
+.header a:hover {color: red}
+
 .header ul {
     display: flex;
     padding: 0.5rem 1rem;
@@ -29,16 +35,17 @@ body {
     justify-content: space-between;
 }
 
+.header .right-side {
+    display: flex;
+    gap: 1rem;
+}
+
 /* Title Section */
 
 .title-section {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-image: url('images/gorilla.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     margin: 0;
     text-align: center;
     min-height: 35rem;
