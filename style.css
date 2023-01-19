@@ -2,6 +2,13 @@
     border: 1px solid red;
 } */
 
+ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -17,6 +24,7 @@ body {
 /* Header */
 
 .header {
+    display: block;
     background-color: #004382;
 }
 
@@ -28,6 +36,7 @@ body {
 .header a:hover {color: red}
 
 .header ul {
+    flex-wrap: wrap;
     display: flex;
     padding: 0.5rem 1rem;
     margin: 0;
@@ -35,20 +44,29 @@ body {
     justify-content: space-between;
 }
 
+.header .left-side {
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+
 .header .right-side {
     display: flex;
+    flex-wrap: wrap;
     gap: 1rem;
 }
 
 /* Title Section */
 
 .title-section {
+    background-color: rgba(255, 255, 255, 0.485);
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 0;
+    margin: 1rem 0;
     text-align: center;
-    min-height: 35rem;
+    flex: 1 1 400px;
+    min-width: 350px;
+    /* min-height: 45rem; */
 }
 
 .title-section h1 {
@@ -57,11 +75,18 @@ body {
 }
 
 .title-section p {
-    color: #F7BAB1;
+    /* color: #F7BAB1; */
+    color: black;
 }
 
 /* Information Section */
 
 .information ul {
     list-style-type: none;
+}
+
+/* Footer Section */
+
+.footer ul {
+    
 }
